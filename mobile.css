@@ -1,0 +1,261 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+
+*,
+* ::before *::after body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+   
+
+
+}
+main{
+    border: 1px solid black;
+    width: 375px;
+    height: 1145px;
+}
+header{
+    position: relative;
+    width: 146.093px;
+height: 32px;
+border: 1px solid black;
+width: 375px;
+height: auto;
+background: #FCFAF9;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+
+}
+.circle, .circle1{
+    position: absolute;
+    top: -20%;
+    right: -30%;
+    width: 281.405px;
+height: 281.405px;
+border: 1px solid black;
+border-radius: 281.405px;
+opacity: 0.2825;
+background: #40FFF6;
+filter: blur(67.95704650878906px);
+}
+.circle1{
+    position: absolute;
+    right: -35%;
+    top: 10%;
+    background:#FF9201;
+}
+.circle3, .circle4{
+    width: 384px;
+height: 384px;
+border-radius: 384px;
+opacity: 0.15;
+background: #FF7B40;
+filter: blur(67.95704650878906px);
+display: none;
+}
+h1{
+    position: relative;
+    left: -26%;
+    font-weight: 700;
+}
+h2{
+    width: 327px;
+    color: #191826;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -0.455px;
+}
+h3{
+    width: 327px;
+
+    color: #191826;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+h4{
+    width: 302px;
+    color: #FCFAF9;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+position: relative;
+top: 7%;
+
+}
+h5{
+    width: 280px;
+    color: #FCFAF9;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+position: relative;
+top: -2%;
+left: -2%;
+}
+h6{
+    display: flex;
+    color: #FCFAF9;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 80% */
+margin-top: 0%;
+margin-left: -40%;
+align-items: center;
+gap: 20px;
+}
+span{
+    color: #FCFAF9;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+letter-spacing: -0.2px;
+}
+button{
+    width: 296px;
+height: 61px;
+border: none;
+}
+.b1{
+    top: -20%;
+    position: relative;
+    border-radius: 12px;
+background: #191826;
+}
+.b2{
+    position: relative;
+    top: -17%;
+    border-radius: 12px;
+background: #FCFAF9;
+gap: 10px;
+}
+header img{
+    display: none;
+}
+.box1{
+    width: 375px;
+height: 600px;
+border-radius: 12px;
+background: #191826;
+margin-top: 180px;
+}
+.img1{
+    position: relative;
+    top: 0%;
+    left: 15%;
+}
+.tel{
+    position: relative;
+    top: -87%;
+    left: 25%;
+}
+.box2{
+    border-radius: 12px;
+background: #FA7453;
+width: 375px;
+height: 582px;
+flex-shrink: 0;
+position:relative;
+top: -220px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+button img{
+    position: relative;
+    left: -34%;
+    top: 30%;
+
+}
+button p{
+    position: relative;
+    top: -48%;
+    color: #191826;
+text-align: center;
+font-family: 'IBM Plex Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+}
+
+.b1 p{
+    color: white;
+}
+
+.showimg1, .showimg2, .showimg3, .tabcirc, .teltab, .showimg4{
+    display: none;
+}
+footer{
+    border: 1px solid black;
+    width: 375px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texts{
+    margin-left: 15px;
+    border:  1px solid black;
+}
+footer p{
+    position: relative;
+    top: 5%;
+    color: #191826;
+width: 338px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+ footer  a{
+    color: #191826;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+
+}
+.texts{
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.texts img{
+    margin-top: 20px;
+}
+.ft{
+    margin-left: -190px;
+    margin-top: -30px;
+}
+.ftic{
+    left: -30%;
+    top: 15%;
+    position: relative;
+
+}
