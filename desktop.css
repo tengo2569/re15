@@ -1,10 +1,15 @@
 @media (width>1440px){
-    
+    body{
+        background-image: url(./assets/desktop/circles.png);
+        background-position: 25% 75%;
+        background-size: cover;
+    }
     
     
     header{
         width: 100vw;
         height: 650px;
+        background: none;
 
     }
    
@@ -20,7 +25,7 @@
     .headertxt{
         position: relative;
     top: -8%;
-    left: -146px;
+    left: -10px;
     }
     h1{
        
@@ -44,7 +49,7 @@
     }
     main{
     width: auto;
-    margin-top: 300px;
+    margin-top: 450px;
     height: 940px;
     
     }
@@ -68,7 +73,7 @@ top: -16%;
     left: 4%;
     }
     .box2{
-        left: 800px;
+        left: 300px;
         top: -620px;
         width: 450px;
         height: 625px;
@@ -89,6 +94,9 @@ top: -16%;
 height: 61px;
 border-radius: 12px;
 
+    }
+    .showimg1{
+        display: none;
     }
     .b1{
         background: #66E2DC;
@@ -125,6 +133,10 @@ border-radius: 12px;
         left: 40%;
     top: -20%;
     position: relative;
+    }
+    .ftic:hover{
+        cursor: pointer;
+        background-color: orange;
     }
   
     .texts img{

@@ -1,0 +1,77 @@
+@media (width>768px){
+    header{
+        width: 100vw;
+        height: 500px;
+        background-image: url(./assets/tablet/circles.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: -8px;
+
+    }
+    .showimg1{
+        display: flex;
+        position: absolute;
+        top: 0%;
+        right: 0%
+    }
+    h1{
+        left: -260px;
+    }
+    h2{
+        position: relative;
+        width: 520px;
+        font-size: 64px;
+        left: -15%;
+    }
+    h3{
+        position: relative;
+        width: 466px;
+        font-size: 18px;
+        left: -15%;
+    }
+   
+    main{
+        width: 768px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   footer{
+  
+    width: 100vw;
+   }
+   .ftic{
+    position: relative;
+    left: 40%;
+    top: -26%;
+   }
+   .ft{
+    position: relative;
+    top: 22%;
+    left: -27%;
+   }
+   .ftic:hover{
+    cursor: pointer;
+
+   }
+   .box1{
+    width: 768px;
+   }
+   .tel{
+    position: relative;
+    top: -19%;
+    left: -15%;
+   }
+   .img1{
+    position: relative;
+    left: 37%;
+    top:-15%
+   }
+   .box2{
+    position: relative;
+    top: -26%;
+    left: 14%;
+   }
+    }
