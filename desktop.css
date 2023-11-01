@@ -111,6 +111,7 @@ border-radius: 12px;
         width: 100vw;
     }
     footer p{
+        left: 0%;
         top: 11%;
     }
     .texts{

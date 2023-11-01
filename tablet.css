@@ -42,6 +42,11 @@
   
     width: 100vw;
    }
+   footer p{
+    position: relative;
+    top: 25%;
+    left: -27%;
+   }
    .ftic{
     position: relative;
     left: 40%;
